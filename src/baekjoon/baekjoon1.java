@@ -1,4 +1,4 @@
-package ch07extends.book;
+package baekjoon;
 
 import java.util.Scanner;
 
