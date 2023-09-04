@@ -2,7 +2,7 @@ package baekjoon;
 
 import java.util.Scanner;
 
-public class baekjoon4대기 {
+public class baekjoon4 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int h = sc.nextInt(); // 시간
