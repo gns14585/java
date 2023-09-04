@@ -1,4 +1,4 @@
-package ch16lambda.book.Question;
+package ch16lambda.book.Question.exam01;
 
 public class Button {
     @FunctionalInterface
