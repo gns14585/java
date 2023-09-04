@@ -17,6 +17,7 @@ class Hero {
     private Weapon w;
 
     public void setW(Weapon w) {
+
         this.w = w;
     }
 
