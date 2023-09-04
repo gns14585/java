@@ -1,6 +1,4 @@
-package ch16lambda.book;
-
-import ch07extends.book.sec08.exam03.C;
+package ch16lambda.book.sec01;
 
 public class LambdaExample {
     public static void action(Calculable calculable) {
