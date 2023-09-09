@@ -97,6 +97,17 @@ public class C18regex {
         // 02-9999-9999
         // 02-999-9999
 
+        System.out.println("- - - - -테스트- - - - -");
+        String p1 = "[\\d{2,3}]*-?[\\d{3,4}]*-?[\\d{4}]*";
+        System.out.println("01036138304".matches(p1));
+        System.out.println("02-305-8183".matches(p1));
+        System.out.println("010-3613-8304".matches(p1));
+        System.out.println("023058183".matches(p1));
+
+
+
+        System.out.println("- - - - -테스트 끝 - - - - -");
+
         String pattern2 = "\\d{2,3}-?\\d{3,4}-?\\d{4}";
         System.out.println("010-3613-8304".matches(pattern2));
         System.out.println("02-361-8304".matches(pattern2));
@@ -118,6 +129,14 @@ public class C18regex {
 
         // 이메일 패턴 예제
         // 영문소문자, 숫자가 여러개  @ 영문소문자,숫자 여러개 . 영문소문자,숫자 여러개
+        System.out.println("- - - - - - - - - 테스트 시작 - - - - - - - -");
+        String p2 = "^[^\\d][a-zA-Z0-9]*@[^\\d][a-zA-Z0-9]*\\.[^\\d][a-zA-Z0-9]*";
+        System.out.println("gns14585@naver.com".matches(p2));
+        System.out.println("- - - - - - - - - 테스트 끝 - - - - - - - - -");
+
+
+
+
         String pattern3 = "[a-z\\d]+@[a-z\\d]+\\.[a-z\\d]+";
         System.out.println("gns14585@naver.com".matches(pattern3));
 
