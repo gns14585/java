@@ -21,7 +21,7 @@ public class Example {
         List<Member> dev = collect.get("개발자");
         list.stream()
                 .filter(m -> m.getJob().equals("개발자"))
-                        .forEach(s -> System.out.println("name : " + s.getName() + " : " + "job : " + s.getJob()));
+                .forEach(s -> System.out.println("name : " + s.getName() + " : " + "job : " + s.getJob()));
 
         System.out.println("[디자이너]");
         List<Member> dis = collect.get("디자이너");
