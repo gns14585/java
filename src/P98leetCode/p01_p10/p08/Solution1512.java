@@ -1,4 +1,4 @@
-package p98leetCode.p01_p10.p08;
+package P98leetCode.p01_p10.p08;
 
 import java.util.*;
 import java.util.stream.Collectors;

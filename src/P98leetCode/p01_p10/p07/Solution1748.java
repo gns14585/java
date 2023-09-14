@@ -1,4 +1,4 @@
-package p98leetCode.p01_p10.p07;
+package P98leetCode.p01_p10.p07;
 
 import java.util.Arrays;
 import java.util.Map;

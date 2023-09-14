@@ -1,4 +1,4 @@
-package p98leetCode.p01_p10.p05;
+package P98leetCode.p01_p10.p05;
 
 import java.util.HashSet;
 import java.util.Set;

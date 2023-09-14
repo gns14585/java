@@ -1,4 +1,4 @@
-package p98leetCode.p01_p10.p02;
+package P98leetCode.p01_p10.p02;
 
 import java.util.ArrayList;
 import java.util.List;

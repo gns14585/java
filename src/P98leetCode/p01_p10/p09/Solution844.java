@@ -1,4 +1,4 @@
-package p98leetCode.p01_p10.p09;
+package P98leetCode.p01_p10.p09;
 
 import java.util.Stack;
 
