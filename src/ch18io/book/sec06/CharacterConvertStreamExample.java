@@ -1,4 +1,4 @@
-package ch18io.lecture.sec06;
+package ch18io.book.sec06;
 
 import java.io.*;
 
