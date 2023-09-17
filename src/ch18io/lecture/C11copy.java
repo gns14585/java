@@ -4,8 +4,8 @@ import java.io.*;
 
 public class C11copy {
     public static void main(String[] args) {
-        String src = "C./Temp/test3.png";
-        String des = "C./Temp/test3_copy.png";
+        String src = "C:/Temp/test3.png";
+        String des = "C:/Temp/test3_copy.png";
 
         try(InputStream is = new FileInputStream(src);
             OutputStream os = new FileOutputStream(des)) {

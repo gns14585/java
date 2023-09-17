@@ -3,13 +3,13 @@ package ch07extends.lecture;
 public class C26abastractMethod {
     public static void main(String[] args) {
         Dog26 d1 = new Dog26();
-        d1.breath();
+        d1.breath(); // 폐로 숨을 쉽니다.
 
         Aniaml26 a1 = d1;
-        a1.breath();
+        a1.breath(); // 폐로 숨을 쉽니다.
 
         Aniaml26 a2 = new Fish26();
-        a2.breath();
+        a2.breath(); // 아가미로 숨을 쉽니다.
     }
 }
 

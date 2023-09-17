@@ -2,7 +2,8 @@ package ch07extends.lecture;
 
 public class C28final {
     public static void main(String[] args) {
-
+        MyClass28 m = new MyClass28();
+        m.method1();
     }
 }
 

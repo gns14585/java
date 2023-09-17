@@ -6,7 +6,9 @@ public class C15cast {
         Animal15 ani2 = new Cat15();
 
         // 강제 형변환(다운캐스팅)
-        Dog15 d1 = (Dog15) ani1;
+        if (ani1 instanceof Dog15 dog15) {
+            System.out.println("Dog15이 따로 갖고 있는 메서드 실행 가능");
+        }
         Cat15 c1 = (Cat15) ani2;
 
         System.out.println("프로그램 실행됨");
