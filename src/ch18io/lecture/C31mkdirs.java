@@ -13,6 +13,5 @@ public class C31mkdirs {
         if (!file.exists()) {
             file.mkdirs();
         }
-        
     }
 }

@@ -1,12 +1,17 @@
 package ch18io.book.Question.p10;
 
 import java.io.*;
+import java.util.Scanner;
 
 public class Example {
     public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System.in);
         String pa = "C:/Temp/dir3";
-        String src = "C:/Temp/Test2.jpg";
-        String dec = "C:/Temp/dir2/123.jpg";
+        System.out.print("원본파일 복사 경로 : ");
+        String src = sc.nextLine();
+
+        System.out.print("복사파일 복사 경로 : ");
+        String dec = sc.nextLine();
 
         File file = new File(pa);
 
@@ -19,8 +24,6 @@ public class Example {
                 while ((len = is.read(arr)) != -1) {
                     os.write(arr, 0, len);
                 }
-                System.out.println("원본파일 복사 경로 : " + src);
-                System.out.println("복사파일 복사 경로 : " + dec);
                 System.out.println("복사가 성공되었습니다.");
                 os.flush();
             } catch (IOException e) {
@@ -33,3 +36,4 @@ public class Example {
         }
     }
 }
+
